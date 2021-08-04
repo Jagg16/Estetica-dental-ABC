@@ -1,0 +1,268 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+/* General */
+
+a{
+     text-decoration: none;
+     color: white;
+     font-weight: lighter;
+}
+
+h1  {
+     font-size: 4rem;
+     margin: 0;
+}
+
+h2{
+     margin: 0;
+}
+
+h4{
+     margin: 0;
+}
+
+pre{
+     font-size: inherit;
+     font-family: inherit;
+     margin-bottom: 2px;
+}
+
+/* Sections */
+
+body{
+     font-family: 'Source Serif Pro';
+     font-size: 120%;
+     background-color: #15103d;
+}
+
+.container{
+     color: white;
+
+}
+
+header{
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+header img {
+  height: 20%;
+}
+
+.menu{
+     width: 100%;
+}
+
+button{
+     display: inline-block;
+     color: floralwhite;
+     background-color: royalblue;
+     border-radius: 10px;
+     border-color: white;
+     height: 50px;
+     font-size: 130%;
+     font-weight: bolder;
+     margin: 3px 5% 3px 5%;
+}
+
+.boton{
+     text-align: center;
+}
+
+.sidebar{
+     margin: 0;
+     width: 35%;
+     float: right;
+     padding-top: 20px;
+}
+
+main{
+     width: 63%;
+     margin: 1%;
+     padding: 20px 20px 20px 30px;
+     float: left;
+     color: white;
+}
+
+.pseudomain{
+     width: 90%;
+     margin: 0 auto;
+     padding: 20px 20px 20px 30px;
+     color: white;
+}
+
+main p{
+     text-align: justify;
+}
+
+.contact{
+     padding: 20px 20px 20px 30px;
+     background-color: ghostwhite;
+     color: #15103d;
+     margin: 0 auto;
+     width: 90%;
+     border-radius: 30px;
+     overflow: hidden;
+     text-align: center;
+}
+
+.contact img, .name{
+     display: inline-block;
+     float: left;
+     margin-bottom: 2%;
+}
+
+.name{
+     width: 60%;
+     padding-top:  7%;
+     text-align: center;
+}
+
+.contact img{
+     width: 30%;
+}
+
+.social{
+     padding-left: 12%;
+     padding-right: 12%;
+}
+
+.social img{
+     width: 40px;
+     height: 40px;
+     border-radius: 5px;
+     margin: 0 5% 0 5%;
+     text-align: center;
+}
+
+.left{
+     float: left;
+     margin-bottom: 20px;
+}
+
+.left p, .left h4{
+     text-align: right;
+}
+
+.right{
+     float: right;
+     margin-bottom: 20px;
+}
+
+
+.left p, .left h4{
+     float: right;
+}
+
+.right p, .right h4{
+     float: left;
+}
+
+.left img, .right img, .corona{
+     float: inherit;
+     width: 47.5%;
+}
+
+.left p, .left h4, .right p, .right h4{
+     display: inline-block;
+     margin: 7px;
+     width: 48.7%;
+}
+
+.left h4, .right h4{
+     padding-top: 7%;
+}
+
+.galeria{
+     margin: 5px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 30%;
+}
+
+.galeria img{
+     width: 100%;
+     height: auto;
+}
+
+.descripcion{
+     text-align: center;
+     padding: 10px;
+}
+
+footer{
+     margin-top: 10px;
+     padding: 20px;
+     width: 100%;
+     background-color: rgba(27,64,73,0.8);
+     text-align: center;
+
+}
+
+@media only screen and (max-width:  700px) {
+
+     header img{
+          height: 40%;
+          width: 100%;
+     }
+
+     button{
+          width: auto;
+          height: auto;
+          font-size: 100%;
+          margin: 4px;
+     }
+
+     main{
+          width: 100%;
+     }
+
+     .boton{
+          margin: 0 auto;
+          padding-top: 20px;
+          width: 90%;
+     }
+
+     main p{
+     text-align: justify;
+     }
+
+     .sidebar{
+          float: none;
+          width: 100%;
+     }
+
+     .descripcion{
+          font-size: 80%;
+     }
+
+     .left, .right{
+          float: none;
+     }
+
+     .left p, .left h4, .right p, .right h4, .corona{
+          float: none;
+          width: 90%;
+     }
+
+     .left img, .right img{
+          width: 90%;
+     }
+
+     .pseudomain p{
+          text-align: justify;
+     }
+
+     .corona{
+          width: 90%;
+     }
+}
