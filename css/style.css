@@ -200,6 +200,22 @@ main p{
      padding: 10px;
 }
 
+.paciente{
+     width: 80%;
+     text-align: center;
+     margin: 0 auto;
+     height: 400px;
+}
+
+.paciente img{
+     height: 100%;
+     border-radius: 3px;
+}
+
+.nosotros{
+     text-align: center;
+}
+
 footer{
      color: white;
      margin-top: 10px;
@@ -279,9 +295,17 @@ footer{
 
      }
 
-     .pseudomain p{
+     .pseudomain p, .nosotros{
           text-align: justify;
      }
 
+     .paciente{
+          width: 100%;
+          margin: 0 auto;
+          height: auto;
+     }
 
+     .paciente img{
+          width: 100%;
+     }
 }
